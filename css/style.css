@@ -1255,6 +1255,7 @@ body {
   .header__title {
     max-width: 375px;
     font-size: 40px;
+    text-align: center;
   }
 }
 
@@ -1290,6 +1291,6 @@ body {
   
   .header__content {
     display: block;
-    margin: 0 auto;
+    margin: auto auto;
   }
 }
