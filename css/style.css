@@ -1287,4 +1287,9 @@ body {
   .header__body-text-item p:last-child {
     font-size: 12px;
   }
+  
+  .header__content {
+    display: block;
+    margin: 0 auto;
+  }
 }
