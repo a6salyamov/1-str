@@ -1295,6 +1295,10 @@ body {
   .offer__content {
     grid-template: 1fr/ auto;
   }
+  
+  .offer__content-link {
+    margin-right: 0;
+  }
 }
 
 /* ======================425=========================== */
