@@ -1285,6 +1285,10 @@ body {
     margin-bottom: 30px;
   }
 
+  .header__body-text{
+    justify-content: center;
+  } 
+  
   .header__body-text-item {
     font-size: 10px;
   }
