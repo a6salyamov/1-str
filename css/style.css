@@ -1260,6 +1260,10 @@ body {
 }
 
 @media(max-width: 425px) {
+  .header{
+    margin-bottom:0;
+  }
+  
   .header__top {
     min-width: 100%;
   }
