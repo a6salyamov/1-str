@@ -1044,12 +1044,14 @@ body {
   color: #FF6433;
 }
 
+
 /* =====================1350==========================*/
 
 @media(max-width: 1350px) {
   .rating {
     left: 50%;
   }
+
 }
 
 /* ======================1250======================== */
@@ -1091,6 +1093,14 @@ body {
   .blog__list-title {
     font-size: 25px;
     line-height: 38px;
+  }
+
+  .contact__form {
+    flex-basis: 500px;
+  }
+
+  .footer__content-right {
+    margin-right: 15px;
   }
 
 }
@@ -1154,6 +1164,45 @@ body {
   .blog__inner-top-btn {
     font-size: 28px;
   }
+
+  .contact__form {
+    flex-basis: 210px;
+  }
+
+  .connect__inner-infobox {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .connect__inner-info-text {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .contact__inner-title {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .footer__content-list-item {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .footer__content-left {
+    max-width: 300px;
+    font-size: 35px;
+  }
+
+  .footer__bottom-inner{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__menu{
+    margin: 50px 0;
+  }
+
 }
 
 /* ======================950=========================== */
@@ -1365,6 +1414,26 @@ body {
   .blog__inner-top-btn {
     font-size: 25px;
   }
+
+  .customers__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .questions__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .footer__content-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__content-icon {
+    justify-content: center;
+  }
 }
 
 /* ======================750=========================== */
@@ -1409,6 +1478,39 @@ body {
 
   .brands__title {
     font-size: 35px;
+  }
+
+  .customers__slider-item {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 50px;
+  }
+
+  .questions__acc-title {
+    font-size: 17px;
+  }
+
+  .questions__acc-text {
+    font-size: 14px;
+  }
+
+  .questions__acc-link {
+    padding: 15px;
+  }
+
+  .contact__inner-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .connect__inner-info {
+    margin-right: 0;
+    margin-top: 32px;
+  }
+
+  .contact__inner-title {
+    text-align: center;
+    margin: 0 auto 50px;
   }
 }
 
@@ -1467,6 +1569,23 @@ body {
   .blog__list-content-text {
     font-size: 12px;
     line-height: 20px;
+  }
+
+  .questions__acc-btn {
+    transform: scale(.7);
+  }
+
+  .questions__acc-title {
+    font-size: 16px;
+  }
+
+  #map {
+    height: 400px;
+  }
+
+  .footer__menu-list{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -1556,5 +1675,49 @@ body {
 
   .blog__inner-top-btn {
     font-size: 17px;
+  }
+
+  .customers__slider-item {
+    padding: 35px;
+  }
+
+  .customers__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .questions__title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .contact__inner-title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .connect__inner-infobox {
+    font-size: 14px;
+  }
+
+  .connect__inner-info-text {
+    font-size: 16px;
+  }
+
+  #map {
+    height: 350px;
+  }
+
+  .footer__content-left {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .footer__content-list-item {
+    font-size: 16px;
+  }
+
+  .footer__content-list-item p {
+    font-size: 15px;
   }
 }
