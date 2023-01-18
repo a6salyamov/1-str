@@ -23,6 +23,21 @@ $(function () {
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
+    responsive: 
+      [
+        {
+          breakpoint: 1350,
+          settings: {
+            arrows: false,
+          },
+        },
+        {
+          breakpoint: 1250,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ]
   });
 
   $('.questions__acc-link').on('click', function (e) {
@@ -38,7 +53,7 @@ $(function () {
       $('.burger').removeClass('burger--follow')
     }
   }, 0)
-  $('.burger, .overlay').on('click', function (e) {
+  $('.burger, .overlay, .header__top-inner a').on('click', function (e) {
     e.preventDefault()
     $('.header__top').toggleClass("header__top--open ")
     $('.overlay').toggleClass('overlay--show')
